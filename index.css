@@ -8,7 +8,7 @@ header {
   background-color: #FBFFF4;
   height: 80px;
   width: 100%;
-  flex-shrink: 0;
+  flex: initial;
 }
 main {
   background-color: #92C9D5;
@@ -21,6 +21,7 @@ main {
   justify-content: center;
   align-items: center ;
   align-content: center;
+  flex : 1;
 }
 .item{
   height: 100px;
